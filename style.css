@@ -1,0 +1,36 @@
+body{
+    background-image: url("Background");
+    
+    }
+    .heading
+    {
+    font-size: 45px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Fascinate Inline', cursive;
+    color: blanchedalmond;
+    background-color: black;
+    }
+    
+    #status
+    {
+    font-size: 18px;
+    }
+    canvas{
+    border-radius: 20px;
+    margin-top: 70px;
+    border: 5px ridge rgb(167, 246, 255);
+    animation-name:canva ;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    }
+    
+    @keyframes canva{
+    from{box-shadow:1px 1px 40px rgb(124, 255, 163) ;}
+    to{box-shadow:1px 1px 40px rgb(255, 124, 211) ;}
+    }
+    
+    #message{
+        font-family: 'Comfortaa', cursive;
+        color: blanchedalmond;
+    }
